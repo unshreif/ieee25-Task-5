@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task</title>
+    <style>
+        header{
+            display: flex;
+        }
+
+        div {
+            width: calc(100% / 8);
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            margin-top: auto;
+        }
+
+        .div1 {
+            background-color: black;
+            color: white;
+        }
+
+        .div2 {
+            background-color: white;
+            color: black;
+        }
+        .div1:hover{
+            background-color: white;
+            color: black;
+            transition: 0.5s;
+        }
+        .div2:hover{
+            background-color: black;
+            color: white;
+            transition: 0.5s;
+        }
+
+        main{
+            background: linear-gradient(to right, #4c1388, #200122);
+            height: 20vh;
+            padding: 20px;
+        }
+
+        .table1 {
+            width: 50%;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+       tr{
+            border: 1px solid white;
+            border-collapse: collapse;
+        }
+
+        .table1 th {
+            background-color: #b03a2e;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .table1 td {
+            padding: 10px;
+            color: #eee;
+        }
+
+        .table1 tr:hover {
+            background-color: gray;
+        }
+        img{
+            width: 15vw;
+        }
+        img:hover{
+            border-radius: 50%;
+            transition: 0.5s;
+        }
+        .table2{
+            margin: 20px auto;
+        }
+        .img1:hover{
+            filter: grayscale(100%);
+        }
+        .img2:hover{
+        filter: opacity(30%);;
+        }
+        .img3:hover{
+            filter: blur(5px);
+        }
+        .img4:hover{
+            filter: brightness(50%);
+        }
+        p::selection{
+            background-color: black;
+            color: white;
+        }
+        p {
+            text-align: center;
+            width: 20vw;
+        }
+
+        body {
+            height: 100vh;
+            margin: 0;
+        }
+        p{
+            width: 40vw;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: start;
+        }
+        body{
+            margin: 0;
+        }
+        .div1::selection{
+            background-color: white;
+            color: black;
+        }
+        .div2::selection{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="div1">T</div>
+    <div class="div2">I</div>
+    <div class="div1">M</div>
+    <div class="div2">E</div>
+    <div class="div1">L</div>
+    <div class="div2">I</div>
+    <div class="div1">N</div>
+    <div class="div2">E</div>
+</header>
+<main>
+<table class="table1">
+    <tr>
+        <th>name</th>
+        <th>age</th>
+    </tr>
+    <tr>
+        <td>Ahmed</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Mostafa</td>
+        <td>24</td>
+    </tr>
+    <tr>
+        <td>Negm</td>
+        <td>27</td>
+    </tr>
+</table>
+</main>
+<br>
+<table class="table2">
+    <tr><td><img class="img1" src="./images/bg.png"></td>
+        <td><img class="img2" src="./images/bg.png"></td>
+    </tr>
+    <tr>
+        <td><img class="img3" src="./images/bg.png"></td>
+        <td><img class="img4" src="./images/bg.png"></td>
+    </tr>
+</table>
+<br>
+<footer>
+<p>Lorem ipsum dolor sit amet. Est culpa veritatis ad esse suscipit 33 quibusdam reprehenderit ut repudiandae incidunt ut dolorem amet. Et quis nisi est consequuntur similique vel impedit neque? Est veniam Quis sed quaerat eius quo quod officia et velit labore et galisum neque.
+
+    Ea necessitatibus galisum in quia possimus quo corporis porro sit suscipit tempore ea rerum placeat qui culpa autem. Hic consequatur obcaecati eos aliquid quidem ut fuga quia ea voluptatem fugit et eaque eveniet.
+
+    Cum sint tempore non aliquid quia est inventore autem in quas magnam. Et dolore quia ex esse quae aut quia ipsam eos molestiae architecto qui alias autem non saepe illum? Et nisi reprehenderit et voluptatum corporis ea asperiores consectetur cum officiis voluptas.</p>
+</footer>
+</body>
+</html>
